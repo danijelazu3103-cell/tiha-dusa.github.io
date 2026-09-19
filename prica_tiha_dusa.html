@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priče koje nosim u sebi</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #e8e0e0;
+    background:
+      radial-gradient(circle at 50% 20%, rgba(100,75,90,.22), transparent 35%),
+      linear-gradient(145deg, #09090c 0%, #151018 55%, #08080a 100%);
+  }
+  .wrap {
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 24px 80px;
+  }
+  header { text-align: center; padding: 45px 20px 70px; }
+  .moon {
+    width: 76px; height: 76px; border-radius: 50%;
+    margin: 0 auto 28px;
+    background: #d8d0d0;
+    box-shadow: 0 0 35px rgba(220,210,220,.22);
+    position: relative;
+  }
+  .moon:after {
+    content:""; position:absolute; width:70px; height:70px;
+    border-radius:50%; background:#0c0b10; left:22px; top:-7px;
+  }
+  h1 { font-size: clamp(38px, 8vw, 70px); font-weight: normal; margin: 0; letter-spacing: 2px; }
+  .subtitle { margin-top: 18px; color:#a99ca8; font-size: 18px; font-style: italic; }
+  .author { margin-top: 28px; color:#c7aebd; letter-spacing: 4px; text-transform: uppercase; font-size: 12px; }
+  .intro {
+    max-width: 650px; margin: auto; padding: 28px;
+    border-top: 1px solid #403540; border-bottom: 1px solid #403540;
+    text-align:center; line-height:1.8; color:#cfc6ce;
+  }
+  .stories { margin-top: 65px; }
+  .stories h2 { font-weight: normal; text-align:center; letter-spacing:3px; font-size:24px; }
+  .empty {
+    margin: 30px auto; max-width: 620px; padding: 45px 30px;
+    border: 1px solid #3b3039; background: rgba(255,255,255,.025);
+    text-align:center; color:#938791; font-style:italic; line-height:1.8;
+  }
+  footer { margin-top:80px; text-align:center; color:#625963; font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="moon"></div>
+    <h1>Priče koje nosim u sebi</h1>
+    <div class="subtitle">Neke priče ne traže da budu objašnjene. Samo žele biti pročitane.</div>
+    <div class="author">Tiha duša</div>
+  </header>
+
+  <div class="intro">
+    Dobrodošli u moj mali skriveni kutak.<br>
+    Ovdje će jednog dana živjeti priče koje su dugo čekale
+    da budu napisane — tihe, mračne, nježne i pune tajni.
+  </div>
+
+  <section class="stories">
+    <h2>— Moje priče —</h2>
+    <div class="empty">
+      Prva priča još nije napisana...<br>
+      Ali ponekad je najljepši početak upravo ona stranica<br>
+      na kojoj još ništa ne piše.
+    </div>
+  </section>
+
+  <footer>© Tiha duša · Bez osobnih podataka</footer>
+</div>
+</body>
+</html>
